@@ -17,7 +17,7 @@
 
     html body{ 
         min-height: 100vh;
-        background-color: darkslategray;
+        background-color: rgb(79, 47, 52);
         font-family: var(--fonte1);
         
     }
@@ -28,7 +28,7 @@
     }
     header > h1 {
         font-variant: small-caps;
-        padding: 30px;
+        padding: 10px;
         font-family: var(--fonte3);
         font-size: 10vw;
     }
@@ -57,13 +57,28 @@
    
         
     section.imagem{
-        background-color: rgb(66, 66, 66);
+        background-color: rgba(117, 117, 117, 0.137);
         color: rgb(255, 255, 255);
+        background-attachment: fixed;
     }
     section.imagem > p {
-        width: 250px;
-        background-color: rgb(102, 102, 102);
+        width: 400px;
+        background-color: rgba(102, 102, 102, 0.548);
     }
+
+    
+    section.imagem#img01{
+        background-image: url('imagens/background001.jpg');
+        background-size: cover;
+        background-position: right , center;
+    }
+
+    section.imagem#img02{
+        background-image: url('imagens/background002.jpg');
+        background-size: cover;
+    }
+       
+
 
     footer{
         text-align: center;
